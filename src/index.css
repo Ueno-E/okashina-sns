@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-sweets-pattern {
+    background-color: #fffbeb;
+    background-image:
+      url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15' cy='15' r='8' fill='%23fb923c' opacity='0.15'/%3E%3Ccircle cx='45' cy='45' r='6' fill='%23f472b6' opacity='0.15'/%3E%3Crect x='35' y='10' width='10' height='10' rx='2' fill='%23fbbf24' opacity='0.15'/%3E%3C/svg%3E");
+    background-size: 120px 120px;
+  }
+
+  .bg-auth-pattern {
+    background-color: #fef3c7;
+    background-image:
+      url("data:image/svg+xml,%3Csvg width='80' height='80' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='20' cy='20' r='10' fill='%23fb923c' opacity='0.2'/%3E%3Ccircle cx='60' cy='60' r='8' fill='%23f472b6' opacity='0.2'/%3E%3Crect x='50' y='15' width='12' height='12' rx='3' fill='%23fbbf24' opacity='0.2'/%3E%3C/svg%3E");
+    background-size: 160px 160px;
+  }
+}
